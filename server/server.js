@@ -2,7 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import bodyParser from 'body-parser'
 import {randomUUID} from 'node:crypto'
-import {createTask,deleteTask,getAllTasks,updateTask} from './services/task.service.js'
+import {createTask,deleteTask,getAllTasks,updateTask} from './server/services/task.service.js'
 
 const app = express()
 const port = 3000
