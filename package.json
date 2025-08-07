@@ -1,0 +1,20 @@
+{
+  "name": "testss",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Code Challenge for Sr. Full-Stack Software Engineer Position # Code Challenge: Build a Simple RESTful API with TypeScript and Python",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
